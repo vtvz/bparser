@@ -1,0 +1,34 @@
+{
+    "name": "vtvz/yii2-bparser",
+
+    "type": "yii2-extension",
+
+    "description": "Simple parser with modifiers",
+    "keywords": ["yii2", "parser"],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/vtvz/yii2-bparser"
+    },
+    "authors": [
+        {
+            "name": "Vitaly Zaslavsky",
+            "email": "vtvz.ru@gmail.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "vtvz\\bparser\\": ""
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2.0-dev"
+        }
+    }
+}
